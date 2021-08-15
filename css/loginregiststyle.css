@@ -1,0 +1,340 @@
+*{
+	margin: 0;
+    box-sizing: border-box;
+}
+.html{
+    position:relative;
+}
+.utama{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kotak1{
+    position: relative;
+    background-color:#f3f3f3 ;
+    width: 100%;
+    height: 650px;
+}
+.kotak1 .kontenlogin table{
+    margin: 0 auto;
+    text-align: start;
+}
+.kotak1 .kotakputih1{
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    border-radius: 15px;
+    top: 30px;
+    bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 3px 6px 1px rgba(255, 208, 0, 0.5);
+}
+.kotak1 .kontenlogin{
+    color: #8b8418;
+    position: relative;
+}
+
+.kotak1 .kontenlogin .judul{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.login{  
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid white;
+}
+.kotak1 .kontenlogin .judul p{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.kotak1 .kontenlogin a{
+    color: #8b8418;
+    font-size: 14px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+    color: #1b1b1b;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+}
+
+
+/* BAGIAN DAFTAR */
+.kotak2{
+    position: relative;
+    background-color:#f3f3f3 ;
+    width: 100%;
+    height: 650px;
+}
+.kotak2 .kontendaftar table{
+    margin: -10px auto;
+    text-align: start;
+}
+.kotak2 .kotakputih2{
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    border-radius: 15px;
+    top: 30px;
+    bottom: 50px;
+    z-index: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 3px 6px 1px rgba(111, 0, 255, 0.5);
+}
+
+.kotak2 .kontendaftar{
+    position: relative;
+    color: #57188b;
+    z-index: 1;
+}
+.daftar{
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid white;
+}
+.kotak2 .kontendaftar .judul{
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+.kotak2 .kontendaftar .judul p{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.karakter{
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 15px;
+}
+.tombolungu{
+    background-color: #673cdf;
+    border: 0px solid #57188b;
+    font-weight: 700;
+    transition: 0.3s;
+    color: white;
+}
+.tombolungu:hover{
+    background-color: #8570ff;
+}
+
+
+/* KOTAK LAYAR UNGU */
+.kotaklayar{
+    z-index: 10;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: -700px;
+    display: none;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+}
+.kotaklayar img{
+    max-width: 400px;
+}
+
+.kotaklayar .sosial p{
+    margin-top: 25px;
+}
+.kotaklayar .sosial img{
+    margin-top: -13px;
+    max-width: 35px;
+    margin-left: 5px;
+    position: relative;
+    top: 15px;
+    transition: 0.3s;
+}
+.kotaklayar .sosial img:hover{
+    top: 8px;
+}
+
+.tombolungu2,
+.tombol2ungu{
+    background-color: white;
+    border: 2px solid #673cdf;
+    font-weight: 600;
+    transition: 0.3s;
+    color: #673cdf;
+}
+.tombolungu2:hover,
+.tombol2ungu:hover{
+    background-color: #673cdf;
+    color: white;
+}
+.tombolungu2{
+    display: none;
+}
+.tombol2ungu{
+    display: inline-block;
+}
+
+/* KOTAK LAYAR KUNING  */
+.kotaklayar2{
+    z-index: 10;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    display: block;
+    bottom: 0;
+    top: 0;
+    background-color: white;
+}
+.kotaklayar2 img{
+    max-width: 400px;
+}
+
+.kotaklayar2 .sosial p{
+    margin-top: 25px;
+}
+.kotaklayar2 .sosial img{
+    margin-top: -13px;
+    max-width: 35px;
+    margin-left: 5px;
+    position: relative;
+    top: 15px;
+    transition: 0.3s;
+}
+.kotaklayar2 .sosial img:hover{
+    top: 8px;
+}
+.tomboloren{
+    display: none;
+    background-color: white;
+    border: 2px solid #fdc200;
+    font-weight: 600;
+    transition: 0.3s;
+    color: #fdc200;
+}
+.tomboloren:hover{
+    background-color: #fdc200;
+    color: white;
+}
+
+.tombol1oren{
+    display: inline-block;
+    background-color: white;
+    border: 2px solid #fdc200;
+    font-weight: 600;
+    transition: 0.3s;
+    color: #fdc200;
+}
+.tombol1oren:hover{
+    background-color: #fdc200;
+    color: white;
+}
+/* keterangan password */
+.bulet{
+    position: relative;
+    margin-left: 10px;
+}
+.bulet1{
+    position: absolute;
+    right: 35px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid white;
+}
+.bulet2{
+    position: absolute;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid white;
+}
+.bulet3{
+    position: absolute;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid white;
+}
+.tomboloren1{
+    display: block;
+}
+
+
+.kosong{
+    margin-left: -100px;
+}
+
+@media (min-width: 992px) {
+    html{
+        min-height:100%;
+    }
+    body{
+        height: 100%;
+    }
+    .utama{
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        overflow:hidden;
+        z-index:-1;
+		flex-direction: row;
+		justify-content: center;
+	} 
+    .kotak1,
+    .kotak2{
+        height: 100%;
+        bottom: 0;
+    }
+    .kotak1 .kotakputih1 ,
+    .kotak2 .kotakputih2{
+        left: 150px;
+        right: 150px;
+        border-radius: 15px;
+    }
+    .kotak1 .kontenlogin .judul{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .kotaklayar{
+        bottom: 0;
+        top: 0;
+    }
+
+    .tomboloren{
+        display: inline-block;
+    }
+    .tombol1oren{
+        display: none;
+    }
+    .tombolungu2{
+        display: inline-block;
+    }
+    .tombol2ungu{
+        display:none;
+    }
+   
+}
+@keyframes animasi1 {
+    0%{
+        left: -10px;
+    }
+    100%{
+        left: -700px;
+        display: none;
+    }
+}
